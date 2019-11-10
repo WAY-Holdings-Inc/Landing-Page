@@ -756,7 +756,7 @@ img.googleplay-grey { width: 151px; height: 45px; }
 
 .stores-badge p {
   font-weight: 500;
-  margin-bottom: : 10px;
+  margin-bottom: 10px;
 }
 
 .stores-badge span.os-version {
@@ -1434,7 +1434,7 @@ span.id-color {
 }
 
 #hero-8 {
-  background-color: #ffbe2e;
+  background-color: #fff;
   padding-top: 130px;
   padding-bottom: 60px;
 }
