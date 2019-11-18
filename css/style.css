@@ -1436,7 +1436,6 @@ span.id-color {
 #hero-8 {
   background-color: #fff;
   padding-top: 130px;
-  padding-bottom: 60px;
 }
 
 #hero-9 {
@@ -4976,4 +4975,9 @@ ul.terms-list li:last-child {
 
 nav a#pull {  
     display: none;  
-}  
+}
+
+.way-text {
+  font-family: 'Nunito', sans-serif;
+  color: #12B2EB;
+}
