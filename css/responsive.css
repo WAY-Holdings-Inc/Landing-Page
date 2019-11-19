@@ -1678,7 +1678,7 @@
   .ibox-3.icon-xs [class*="flaticon-"]:before, .ibox-4.icon-xs [class*="flaticon-"]:after { font-size: 5.5rem; }
   .ibox-4.icon-xs [class*="flaticon-"]:before, .ibox-4.icon-xs [class*="flaticon-"]:after { font-size: 3.25rem; }
 
-  .iblock { width: 50%; 1text-align: center; padding: 5px; margin-bottom: 10px;}
+  .iblock { width: 50%; text-align: center; padding: 5px; margin-bottom: 10px;}
   .iblock.icon-xs [class*="flaticon-"]:before, .iblock.icon-xs [class*="flaticon-"]:after { font-size: 4.25rem; }
 
   .info-6-row .btn { margin-top: 10px; }
@@ -1995,6 +1995,19 @@
   /*------------------------------------------*/
 
 
+}
 
+@media (max-width: 767px) {
+  .web {
+    display: none;
+  }
+  
+}
 
+@media (min-width: 767px) {
+  .mob {
+    display: none;
+  }
+  
+}
 }
