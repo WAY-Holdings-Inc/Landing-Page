@@ -4575,6 +4575,7 @@ a.share-ico.ico-google-plus { background-color: #cd1111; color: #fff; }
 #footer-5 .footer-links {
   margin-bottom: 40px;
   padding-left: 10%;
+  position: absolute;
 }
 
 /*------------------------------------------*/
@@ -4976,6 +4977,11 @@ ul.terms-list li:last-child {
 nav a#pull {  
     display: none;  
 }
+
+
+/* ==========================================================================
+  Custom
+  =========================================================================== */  
 
 .way-text {
   font-family: 'Nunito', sans-serif;

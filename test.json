@@ -1,0 +1,16 @@
+{
+  "transList": [
+    {
+      "date": "1/1/2020",
+      "total_price": 31.50,
+      "items": "Steak",
+      "users": "John"
+    },
+    {
+      "date": "1/2/2020",
+      "total_price": 10.50,
+      "items": "Pasta",
+      "users": "Jane"
+    }
+  ]
+}
