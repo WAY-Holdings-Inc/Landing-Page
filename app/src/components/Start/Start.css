@@ -1,0 +1,123 @@
+
+
+.way-containerc {
+    min-height: 100vh;
+}
+
+.way-containerc {
+    padding-top: 9vw;
+    min-height: 100vh;
+    padding-bottom: 7vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+
+}
+
+.get-started {
+    background-color: #F1F1F1;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+}
+
+.white-container {
+    margin: auto;
+    justify-content: center;
+    padding: 40px 60px;
+    width: 85%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.07);
+    border-radius: 16px;
+}
+
+
+    
+
+.increase {
+    padding-top: 21px;
+    padding-bottom: 15px;
+
+    font-family: 'BrandonText-bold';
+
+}
+
+.increasep{
+    padding-top: 21px;
+    padding-bottom: 31px;
+
+    color: #757575;
+
+}
+.way-buttons Button {
+
+    background-color:#12B2EB;
+	border:1px solid #12B2EB;
+	display:inline-block;
+	color:#ffffff;
+	font-size:17px;
+    padding:10px 65px;
+    margin:10px 65px;
+    text-decoration:none;
+    
+    border-radius: 45px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-family: 'BrandonText-bold';
+
+}
+
+.way-buttons Button:hover {
+
+    background-color:#12B2EB;
+	border:1px solid #12B2EB;
+	display:inline-block;
+	color:#ffffff;
+	font-size:17px;
+    text-decoration:none;
+    
+    border-radius: 45px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-family: 'BrandonText-bold';
+
+}
+
+.way-buttons Button:active {
+	
+    background-color:#12B2EB;
+	border:1px solid #12B2EB;
+	display:inline-block;
+	color:#ffffff;
+	font-size:17px;
+    text-decoration:none;
+    
+    border-radius: 45px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-family: 'BrandonText-bold';
+}
+
+@media  (max-width: 600px) {
+
+
+
+
+.way-buttons Button {
+
+    background-color:#12B2EB;
+	border:1px solid #12B2EB;
+	display:inline-block;
+	color:#ffffff;
+	font-size:17px;
+    padding:10px 65px;
+    margin:10px -5px;
+
+
+}
+}

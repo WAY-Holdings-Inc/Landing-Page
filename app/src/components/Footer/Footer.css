@@ -1,0 +1,82 @@
+.way-footer {
+    height: 232px;
+    background-color: #FAFAFA;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 1.55%;
+    padding-bottom: 15.5%;
+    width: 100%;
+}
+
+.footer-container {
+    background-color: #FAFAFA;
+
+}
+
+.wayimg {
+    padding-top: 8.5%;
+    padding-bottom: 20px;
+}
+
+.footer-links {
+    padding-top: 1.5%;
+    background-color: #FAFAFA;
+    text-align: left;
+}
+
+
+.footer-links h5 {
+    padding-inline-start: 0;
+    background-color: #FAFAFA;
+    font-family: "BrandonText-bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.clear-padding-inline {
+    padding-inline-start: 0;
+}
+
+.footer-links li a {
+    background-color: #FAFAFA;
+    font-family: "BrandonText-bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6C6C6C;
+
+}
+
+@media (max-width: 576px) {
+
+    .footer-links,
+    .mo-center {
+        text-align: center;
+    }
+}
+
+.holding {
+    background-color: #FAFAFA;
+    padding: 0%;
+
+}
+
+.holding h3 {
+    font-family: "BrandonText-bold";
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #C4C4C4;
+
+}
+
+.way-logo {
+    padding: 1vw;
+    cursor: pointer;
+
+}

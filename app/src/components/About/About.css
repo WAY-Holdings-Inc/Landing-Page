@@ -1,0 +1,259 @@
+.unset {
+  all: unset;
+}
+
+.unset:hover {
+  all: unset;
+}
+
+.way-containery {
+  min-height: 100vh;
+  margin-bottom: -30%;
+}
+
+.way-container h3 {
+  font-size: 28px;
+  font-family: 'BrandonText-bold';
+}
+
+
+.d-blocka {
+  font-size: 1.5vw;
+  margin: .0em;
+  font-weight: 900;
+  font-family: 'BrandonText-bold';
+
+}
+
+.way-containerz h3 {
+  font-size: 36px;
+  padding-bottom: 2.5%;
+  font-family: 'BrandonText-bold';
+}
+
+.way-containerz p {
+  font-size: 18px;
+}
+
+.way-containerx h3 {
+  font-size: 36px;
+  padding-bottom: 2.55%;
+  font-family: 'BrandonText-bold';
+}
+
+.way-containerx p {
+  font-size: 22px;
+}
+
+.way-gray {
+  color: #757575;
+}
+
+.way-mission {
+  margin-top: 10%;
+  max-width: 55% !important;
+}
+
+.way-mission h1 {
+  font-family: 'BrandonText-bold';
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.way-mission-text {
+  padding: 5%;
+
+  font-size: 22px;
+  color: #757575;
+}
+
+.learn {
+  cursor: pointer;
+}
+
+.skew {
+  width: 100%;
+}
+
+.about-padding {
+  padding: 20px 88px !important;
+}
+
+.way-bg-gray {
+  background-color: #f2f2f2;
+}
+
+.way-benefit p {
+  width: 95%;
+  line-height: 31px;
+  padding-bottom: 3.5%;
+}
+
+.aboutimg {
+  max-width: 100%;
+}
+
+.digital p {
+  font-size: 25px;
+  line-height: 41px;
+}
+
+.aboutimg {
+  padding-top: 10%;
+}
+
+
+@media  (max-width: 600px) {
+  .way-right-sp h1, .way-right p, .way-right h1, .way-right-sp p, .way-get-started h1, .way-left p, .way-left h1, .way-right-ipad p, .way-right-ipad h1 {
+    text-align: center;
+
+}
+
+.way-containery {
+  padding: 0;
+}
+
+.way-mission h1{
+    font-size: 34px;
+    width:100%;
+}
+
+.way-mission p{
+  font-size: 16px;
+
+
+}
+
+.way-mission  {
+  margin-top: 25vw;
+  max-width: 95% !important;
+}
+
+.way-containerz h3 {
+  font-size: 28px;
+  padding-top: 13.5%;
+  margin-left: -15vw;
+  width: 180%;
+  padding-bottom: 2.5%;
+  font-family: 'BrandonText-bold';
+
+}
+
+.way-containerz p {
+  font-size: 16px;
+  line-height: 25px;
+  width:160%;
+  justify-content: center;
+  margin-left: -15vw;
+
+}
+
+.way-containerx h3 {
+  margin-left: -15vw;
+  font-size: 28px;
+  width: 180%;
+  padding-bottom: 2.55%;
+  font-family: 'BrandonText-bold';
+}
+
+.way-containerx p {
+  font-size: 16px;
+  line-height: 25px;
+  width:160%;
+  justify-content: center;
+  margin-left: -15vw;
+
+
+
+}
+
+
+
+
+}
+
+
+
+@media (min-width: 601px) and (max-width: 1200px) {
+
+  .way-right-sp h1, .way-right p, .way-right h1, .way-right-sp p, .way-get-started h1, .way-left p, .way-left h1, .way-right-ipad p, .way-right-ipad h1 {
+      text-align: center;
+
+  }
+
+  .way-containery {
+    padding: 0;
+  }
+
+  .way-mission h1{
+      font-size: 44px;
+      width:100%;
+  }
+
+  .way-mission p{
+    font-size: 19px;
+
+
+  }
+  
+  .way-mission  {
+    margin-top: 25vw;
+    max-width: 95% !important;
+  }
+ 
+ 
+.way-containerz h3 {
+  font-size: 28px;
+  padding-top: 13.5%;
+
+  padding-bottom: 2.5%;
+  font-family: 'BrandonText-bold';
+
+}
+
+.way-containerz p {
+  font-size: 18px;
+  line-height: 30px;
+  width:100%;
+  justify-content: center;
+
+}
+
+
+
+
+.way-containerx h3 {
+
+  font-size: 28px;
+  min-width: 100%;
+  padding-bottom: 2.55%;
+  font-family: 'BrandonText-bold';
+}
+
+.way-containerx p {
+  font-size: 18px;
+  line-height: 30px;
+  width:100%;
+
+
+
+}
+
+.digital img {
+  padding:30px;
+
+}
+
+
+
+
+
+  
+
+  
+
+  
+}
+
+

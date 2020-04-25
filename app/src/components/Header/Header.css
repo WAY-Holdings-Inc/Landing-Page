@@ -1,0 +1,82 @@
+/* CSS elements for header.js */
+.way-nav {
+    height: 75px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.03);
+}
+
+.way-options {
+    z-index: 3;
+    color: #6C6C6C;
+    padding: 3em;
+    font-size: 18px;
+    font-family: 'BrandonText-bold';
+
+}
+
+
+.nav-option:hover {
+    z-index: 3;
+    color: #12B2EB;
+}
+
+
+
+.nav-option {
+    color: #6C6C6C;
+    margin: .5em;
+    text-align: center;
+}
+
+
+.way-button {
+    color: #ffffff;
+    background-color: #12B2EB;
+    border-radius: 45px;
+    width: 9.5em;
+    text-align: center;
+    margin: 2em;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    font-family: 'BrandonText-bold';
+    justify-content: center;
+
+}
+
+
+.way-button:hover {
+    color: #ffffff;
+
+}
+
+.way-logo {
+    margin: 2vw;
+    cursor: pointer;
+
+}
+
+@media (max-width: 600px) {
+    .way-options {
+        background-color: #FFF;
+        text-align: center;
+
+    }
+
+    
+
+}
+
+@media (min-width: 500px) and (max-width: 1200px) {
+    .way-options {
+        background-color: #FFF;
+        text-align: center;
+
+    }
+
+    .way-button {
+    
+        margin-left: 30vw;
+        
+    
+    }
+    
+
+}
