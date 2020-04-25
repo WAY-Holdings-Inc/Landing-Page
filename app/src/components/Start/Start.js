@@ -11,7 +11,7 @@ function Start() {
             <Container className="way-containerc pt-5">
                 <Row className="text-center">
                     <Col xs={12}>
-                        <h1 className="increase">Increase your store sales today.</h1>
+                        <h1 className="increase">Increase your in-store sales today.</h1>
                     </Col>
                     <Col xs={12}>
                         <p className="increasep">Fill out the form below to get started!</p>
