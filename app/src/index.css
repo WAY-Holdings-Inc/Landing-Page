@@ -34,3 +34,12 @@ code {
 .way-c {
   color: var(--way-color);
 }
+
+.way-nav {
+  top: 0px;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  margin-bottom: 50px;
+
+}

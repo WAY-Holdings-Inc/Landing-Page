@@ -4,7 +4,7 @@ body{
 }
 
 .way-container {
-    padding-top: 9vw;
+    padding-top: 13vw;
     min-height: 100vh;
     padding-bottom: 50px;
     margin-bottom: 50px;
@@ -15,7 +15,17 @@ body{
 
 
 .way-containerl {
-    padding-top: 9vw;
+    padding-top: 13vw;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+
+}
+
+.way-containerb {
+    padding-top: 10vw;
     min-height: 100vh;
     padding-bottom: 50px;
     margin-bottom: 50px;
@@ -649,14 +659,22 @@ padding-top: 20%;
 }
 
   .way-containerl {
-    padding-top: 9vw;
+    padding-top: 24vw;
     min-height: 10vh;
     padding-bottom: 0px;
     margin-bottom: 0px;
     padding-left: 4vw;
     padding-right: 4vw;
-    overflow-x: hidden;
+    overflow-x: hidden;}
 
+    .way-containerb {
+        padding-top: 18vw;
+        min-height: 10vh;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        overflow-x: hidden;
 
 }
 }

@@ -47,7 +47,7 @@ function Home() {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid className="way-containerl way-intro" id="learn">
+            <Container fluid className="way-containerb way-intro" id="learn">
                 <Row className="parent">
                     <Col className="phonez text-center b" lg={6}>
                         <img src={phone} className="" alt="Phone"/>
