@@ -115,7 +115,7 @@ function Home() {
                         <img src={commissions} alt="Commissions"/>
                     </Col>
                     <Col  className ="c">
-                        <h1>Pay zero Commissions</h1>
+                        <h1>Reduce Commissions</h1>
                         <p>
                             Accept digital orders without the commissions and service fees charged by third-party delivery companies. Save anywhere from 10%-30% on every order.
                         </p>
