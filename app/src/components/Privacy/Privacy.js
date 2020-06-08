@@ -3,14 +3,22 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Footer from '../Footer/Footer';
 
+import './Privacy.css'
+
 function Privacy() {
   return (
     <div>
       <Container className="way-containery text-center">
         <Row>
           <Col lg={12}>
-            <h1>PRIVACY POLICY</h1>
-            <p>TODO fill in privacy policy</p>
+            <article>
+              <div className="header-block">
+                <h1>PRIVACY POLICY</h1>
+              </div>
+
+              <h2>Way Privacy Policy</h2>
+            </article>
+
           </Col>
         </Row>
       </Container>
