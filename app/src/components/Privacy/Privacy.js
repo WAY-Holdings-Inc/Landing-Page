@@ -2,10 +2,9 @@ import React from 'react';
 
 import { Container, Row, Col } from 'react-bootstrap';
 import Footer from '../Footer/Footer';
+import { Link, TitledParagraph, ListHeader } from '../LegalComponents/LegalComponents'
 
 import '../LegalComponents/LegalStyles.css';
-
-import { Link, TitledParagraph, ListHeader } from '../LegalComponents/LegalComponents'
 
 function Privacy() {
   return (
@@ -14,6 +13,9 @@ function Privacy() {
         <Row>
           <Col lg={12}>
             <section id="[8]">
+              <br />
+              <br />
+              <br />
               <br />
               <h1>Privacy Policy</h1>
               <br /><br />

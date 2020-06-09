@@ -2,10 +2,9 @@ import React from 'react';
 
 import { Container, Row, Col } from 'react-bootstrap';
 import Footer from '../Footer/Footer';
+import { Link, TitledParagraph, ListHeader } from '../LegalComponents/LegalComponents'
 
 import '../LegalComponents/LegalStyles.css';
-
-import { Link, TitledParagraph, ListHeader } from '../LegalComponents/LegalComponents'
 
 
 function Privacy() {
