@@ -57,6 +57,19 @@
     .mo-center {
         text-align: center;
     }
+
+    .legal-navbar {
+        position: relative;
+        bottom: -280px;
+    }
+
+    .legal-nav li {
+        padding: 0 0;
+        padding-left: 30%;
+    }
+    .legal-nav li a {
+        text-align: center;
+    }
 }
 
 .holding {

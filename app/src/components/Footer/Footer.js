@@ -69,12 +69,6 @@ function Footer() {
                     <h3>© 2020 WAY Holdings, Inc.</h3>
                 </div>
             </div>
-            {/* <div className="legal-navbar">
-                <ul className="legal-nav">
-                    <li><a href="/terms">Terms of Service</a></li>
-                    <li><a href="/privacy">Privacy Policy</a></li>
-                </ul>
-            </div> */}
             <Container fluid>
                 <Row className="legal-navbar">
                     <Col sm={3}></Col>
