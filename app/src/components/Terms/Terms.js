@@ -3,50 +3,10 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Footer from '../Footer/Footer';
 
-import './Terms.css'
+import '../LegalComponents/LegalStyles.css';
 
-class Link extends React.Component {
-  render() {
-    if (this.props.email) {
-      return (
-        <a href={"mailto:" + this.props.src} rel="noopener noreferrer" target="_blank">{this.props.src}</a>
-      )
-    }
-    return (
-      <a href={this.props.src} rel="noopener noreferrer" target="_blank">{this.props.src}</a>
-    )
-  }
-}
+import { Link, TitledParagraph, ListHeader } from '../LegalComponents/LegalComponents'
 
-class TitledParagraph extends React.Component {
-  render() {
-    if (this.props.noindent) {
-      return (
-        <p>
-          <span class="bold">{this.props.header}</span> {this.props.content}
-        </p>
-      )
-    }
-    return (
-      <p>
-        &emsp;&emsp;&emsp;&emsp;<span class="bold">{this.props.header}</span> {this.props.content}
-      </p>
-    )
-  }
-}
-
-class ListHeader extends React.Component {
-  render() {
-    return (
-      <li class="list-clause-header bold">
-        <br />
-        &emsp;&emsp;&emsp;&emsp;{this.props.content}
-        <br />
-        <br />
-      </li>
-    )
-  }
-}
 
 function Privacy() {
   return (
