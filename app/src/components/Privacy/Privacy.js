@@ -8,7 +8,7 @@ import './Privacy.css'
 function Privacy() {
   return (
     <div>
-      <Container className="way-containery text-center">
+      <Container>
         <Row>
           <Col lg={12}>
             <article>
@@ -17,6 +17,7 @@ function Privacy() {
               </div>
 
               <h2>Way Privacy Policy</h2>
+              <h3>Date of Last Revision: June 2020</h3>
             </article>
 
           </Col>
