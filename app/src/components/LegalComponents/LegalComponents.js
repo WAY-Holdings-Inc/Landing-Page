@@ -10,7 +10,7 @@ class Link extends React.Component {
       )
     } else if (this.props.jump) {
       return (
-        <a href={"#" + this.props.src}>{this.props.src}</a>
+        <a href={"#" + this.props.src} id={this.props.id}>{this.props.src}</a>
       )
     }
     return (
@@ -44,13 +44,12 @@ class ListHeader extends React.Component {
           <br />
           <h2 class="header-bold">&emsp;{this.props.content}</h2>
           <br />
-          <br />
         </div>
 
       )
     }
     return (
-      <li class="list-clause-header bold">
+      <li class="no-list-style bold">
         <br />
         &emsp;&emsp;&emsp;&emsp;{this.props.content}
         <br />

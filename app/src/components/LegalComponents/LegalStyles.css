@@ -57,6 +57,12 @@ ol > li {
   text-decoration: underline;
 }
 
-.list-clause-header {
+
+.no-list-style {
   list-style: none;
+}
+
+.no-list-indent {
+  list-style: none;
+  padding-left: 0
 }
