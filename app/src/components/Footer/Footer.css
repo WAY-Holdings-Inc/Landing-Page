@@ -60,7 +60,7 @@
 
     .legal-navbar {
         position: relative;
-        bottom: -280px;
+        bottom: -320px;
     }
 
     .legal-nav li {
@@ -72,6 +72,16 @@
     }
 }
 
+@media (max-width: 768px) {
+
+    #terms {
+        width: 100%;    
+    }
+    
+    #privacy {
+        width: 100%;
+    }
+}
 .holding {
     background-color: #FAFAFA;
     padding: 0%;
@@ -96,6 +106,7 @@
 
 .legal-navbar {
     background-color: #333333;
+    min-height: 70px;
 }
 
 .legal-nav {
@@ -118,5 +129,15 @@
 }
 
 #terms {
-    padding-right: 45%;
+    margin: 0;
+    position: absolute;
+    left: 20%;
+    top: 10px;
+}
+
+#privacy {
+    position: absolute;
+    margin: 0;
+    right: 20%;
+    top: 10px;
 }
