@@ -3,12 +3,14 @@
 }
 
 .bold {
-  font-weight: bold;
+  font-family: 'BrandonText-bold';
+  font-weight: bolder;
 }
 
 a {
   color: #12B2EB;
 }
+
 .way-blue {
   color: #12B2EB;
 }

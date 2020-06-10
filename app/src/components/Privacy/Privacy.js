@@ -74,7 +74,7 @@ function Privacy() {
                   </li>
               </ul>
               <p id="Cookies">
-                We use cookies to operate and administer our Site, gather usage data on our Site and improve your experience on it. A “cookie” is a piece of information sent to your browser by a website you visit. Cookies can be stored on your computer for different periods of time. Some cookies expire after a certain amount of time, or upon logging out (session cookies), others survive after your browser is closed until a defined expiration date set in the cookie (as determined by the third party placing it), and help recognize your computer when you open your browser and browse the Internet again (persistent cookies). For more details on cookies please visit <a href="http://www.allaboutcookies.org/">All About Cookies</a>.
+                We use cookies to operate and administer our Site, gather usage data on our Site and improve your experience on it. A “cookie” is a piece of information sent to your browser by a website you visit. Cookies can be stored on your computer for different periods of time. Some cookies expire after a certain amount of time, or upon logging out (session cookies), others survive after your browser is closed until a defined expiration date set in the cookie (as determined by the third party placing it), and help recognize your computer when you open your browser and browse the Internet again (persistent cookies). For more details on cookies please visit <a class="way-blue" href="http://www.allaboutcookies.org/">All About Cookies</a>.
                   </p>
               <p>
                 <span class="bold">Email Pixels:  </span>
@@ -89,10 +89,10 @@ function Privacy() {
               </p>
               <TitledParagraph noindent header="Your Choices." content="On most web browsers, you will find a “help” section on the toolbar. Please refer to this section for information on how to receive a notification when you are receiving a new cookie and how to turn cookies off. Please see the links below for guidance on how to modify your web browser’s settings on the most popular browsers:" />
               <ul>
-                <li><a href="http://windows.microsoft.com/en-gb/internet-explorer/delete-manage-cookies#ie=ie-11" rel="noopener noreferrer" target="_blank">Internet Explorer</a></li>
-                <li><a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences?esab=a&s=cookies&r=6&as=s" rel="noopener noreferrer" target="_blank">Mozilla Firefox</a></li>
-                <li><a href="https://support.google.com/accounts/answer/61416?hl=en" rel="noopener noreferrer" target="_blank">Google Chrome</a></li>
-                <li><a href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" rel="noopener noreferrer" target="_blank">Apple Safari</a></li>
+                <li><a class="way-blue" href="http://windows.microsoft.com/en-gb/internet-explorer/delete-manage-cookies#ie=ie-11" rel="noopener noreferrer" target="_blank">Internet Explorer</a></li>
+                <li><a class="way-blue" href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences?esab=a&s=cookies&r=6&as=s" rel="noopener noreferrer" target="_blank">Mozilla Firefox</a></li>
+                <li><a class="way-blue" href="https://support.google.com/accounts/answer/61416?hl=en" rel="noopener noreferrer" target="_blank">Google Chrome</a></li>
+                <li><a class="way-blue" href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" rel="noopener noreferrer" target="_blank">Apple Safari</a></li>
               </ul>
               <p>
                 Please note that if you limit the ability of websites to set cookies, you may be unable to access certain parts of the Site and you may not be able to benefit from the full functionality of the Site.
@@ -119,7 +119,7 @@ function Privacy() {
                 <li>To otherwise enhance customer experiences</li>
               </ul>
               <p>
-                <span class="bold">[Aggregated Information <Link jump src="[DE15]" /> .</span>
+                <span class="bold">[Aggregated Information</span> <Link jump src="[DE15]" /> <span class="bold"> . </span>
               We may aggregate Personal Data and use the aggregated information to analyze the effectiveness of our Service, to improve and add features to our Service, and for other similar purposes. In addition, from time to time, we may analyze the general behavior and characteristics of users of our Services and share aggregated information like general user statistics with prospective business partners. We may collect aggregated information through the Service, through cookies, and through other means described in this Privacy Policy.]
             </p>
               <p>
@@ -180,7 +180,7 @@ function Privacy() {
             </section>
             <section>
               <ListHeader large content="8. LINKS TO OTHER WEBSITES" />
-              <p>The Service may contain links to other websites not operated or controlled by Company, including social media services <span class="bold">(“Third Party Sites”)</span>. The information that you share with Third Party Sites will be governed by the specific privacy policies and terms of service of the Third Party Sites and not by this Privacy Policy. By providing these links we do not imply that we endorse or have reviewed these sites. Please contact the Third Party Sites directly for information on their privacy practices and policies.</p>
+              <p>The Service may contain links to other websites not operated or controlled by Company, including social media services (<span class="bold">“Third Party Sites”</span>). The information that you share with Third Party Sites will be governed by the specific privacy policies and terms of service of the Third Party Sites and not by this Privacy Policy. By providing these links we do not imply that we endorse or have reviewed these sites. Please contact the Third Party Sites directly for information on their privacy practices and policies.</p>
             </section>
             <section>
               <ListHeader large content="9. SECURITY" />
@@ -262,7 +262,7 @@ function Privacy() {
         </Row>
       </Container>
       <Footer />
-    </div>
+    </div >
   )
 }
 

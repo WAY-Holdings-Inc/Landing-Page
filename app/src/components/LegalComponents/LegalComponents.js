@@ -42,7 +42,7 @@ class ListHeader extends React.Component {
       return (
         <div>
           <br />
-          <h2 class="header-bold">&emsp;{this.props.content}</h2>
+          <h2 class="header-bold">&emsp;&nbsp;&nbsp;{this.props.content}</h2>
           <br />
         </div>
 
