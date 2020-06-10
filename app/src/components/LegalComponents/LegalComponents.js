@@ -6,15 +6,15 @@ class Link extends React.Component {
   render() {
     if (this.props.email) {
       return (
-        <a href={"mailto:" + this.props.src} rel="noopener noreferrer" target="_blank">{this.props.src}</a>
+        <a href={"mailto:" + this.props.src} rel="noopener noreferrer" target="_blank" class="way-blue">{this.props.src}</a>
       )
     } else if (this.props.jump) {
       return (
-        <a href={"#" + this.props.src} id={this.props.id}>{this.props.src}</a>
+        <a href={"#" + this.props.src} id={this.props.id} class="way-blue">{this.props.src}</a>
       )
     }
     return (
-      <a href={this.props.src} rel="noopener noreferrer" target="_blank">{this.props.src}</a>
+      <a href={this.props.src} rel="noopener noreferrer" target="_blank" class="way-blue">{this.props.src}</a>
     )
   }
 }

@@ -66,3 +66,10 @@ ol > li {
   list-style: none;
   padding-left: 0
 }
+
+a {
+  color: #12B2EB;
+}
+.way-blue {
+  color: #12B2EB;
+}
