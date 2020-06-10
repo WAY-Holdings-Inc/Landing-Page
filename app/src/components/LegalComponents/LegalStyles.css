@@ -73,3 +73,15 @@ a {
 .way-blue {
   color: #12B2EB;
 }
+
+#conditions-of-use-list {
+  margin-left: 20px;
+}
+
+.ip-rights-list {
+  margin-left: 15px;
+}
+
+.ip-rights-list-elt {
+  padding-left: 10px;
+}
