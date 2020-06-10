@@ -217,43 +217,43 @@ function Privacy() {
                 In the app, please make the privacy policy available to consumers before they download the app and you start collecting data through posting or linking the privacy policy on the app’s platform page. Maintain a link to the policy within the app as well.
               </p>
               <ul class="no-list-style no-list-indent">
-                <li><Link jump src="[2]" id="[2]" /> Website based</li>
-                <li><Link jump src="[3]" id="[3]" /> App based</li>
-                <li><Link jump src="[4]" id="[4]" /> Company – please hyperlink.</li>
-                <li><Link jump src="[5]" id="[5]" /> Company – please note that if you qualify as a “business” under the California Consumer Privacy Act you will need to make more detailed disclosures and inform California residents that they have certain rights with respect to their personal data.</li>
-                <li><Link jump src="[6]" id="[6]" /><span class="bold">Possible language for where collecting location information:</span></li>
+                <li><Link jump disp="[ 2]" src="[2]" id="[2]" /> Website based</li>
+                <li><Link jump disp="[ 3]" src="[3]" id="[3]" /> App based</li>
+                <li><Link jump disp="[ 4]" src="[4]" id="[4]" /> Company – please hyperlink.</li>
+                <li><Link jump disp="[ 5]" src="[5]" id="[5]" /> Company – please note that if you qualify as a “business” under the California Consumer Privacy Act you will need to make more detailed disclosures and inform California residents that they have certain rights with respect to their personal data.</li>
+                <li><Link jump disp="[ 6]" src="[6]" id="[6]" /><span class="bold">Possible language for where collecting location information:</span></li>
               </ul>
 
               <TitledParagraph noindent header="Geolocation:" content="We collect your location information through the App using your device IP address, WiFi, Bluetooth, and GPS coordinates (e.g. latitude/longitude) of your mobile device. If you have given the App permission to access your location, we may collect your device’s location even if you are not using the Service and store your location history. If you want to opt-out of the collection of your location data, please adjust your settings in your mobile device to limit the App’s access to your location data." />
 
               <div>
-                <Link jump src="[7]" id="[7]" /><Link jump src="[7]" /><span class="bold">Payment Processors:</span>
+                <Link jump disp="[ 7][ 7]" src="[7]" id="[7]" /><span class="bold">Payment Processors:</span>
                 <p>
                   [and the financial information necessary to ensure payments can be processed by our payment processor Stripe, Inc. (“Stripe”). Accordingly, in addition to this Privacy Policy and our Terms of Service, information related to your purchases is also processed according to Stripe’s services agreement and privacy policy.]
               </p>
               </div>
 
               <ul class="no-list-style no-list-indent">
-                <li><Link jump src="[8]" id="[8]" />Company - we understand you have a social media presence  and we proposed to cover collection of data through these pages. We assume you also receive from the social media sites aggregate statics about visitors – please confirm, and if possible provide details as to the type of data that you receive from the social media sites.</li>
-                <li><Link jump src="[9]" id="[9]" />For B2B policies</li>
-                <li><Link jump src="[11]" id="[11]" />Company - this is a basic description of information generally collected automatically and sent to the company’s servers. Please review and confirm if this reflects your practices.</li>
-                <li><Link jump src="[12]" id="[12]" />Company – this is to cover email pixels in marketing campaigns (i.e., through Mailchimp). Please confirm/modify as appropriate.</li>
-                <li><Link jump src="[13]" id="[13]" />Company – this disclosures are required by Google’s Terms of Service.</li>
-                <li><Link jump src="[14]" id="[14]" />Company – this disclosure is required by California law if you are engaging in OBA/retargeting. Some of our clients that don’t engage in those activities still elect to leave this in, however, so they don’t need to update the privacy policy if/when practices change. The bracketed disclosures here are required by Facebook Pixel’s terms.</li>
-                <li><Link jump src="[DE15]" id="[DE15]" />Company – please confirm.</li>
-                <li><Link jump src="[16]" id="[16]" />Company – please confirm.</li>
-                <li><Link jump src="[17]" id="[17]" />Company – this disclosure is required by the App Store’s privacy policy guidelines. Please confirm you comply with this.</li>
-                <li><Link jump src="[18]" id="[18]" />Company – this disclosure is required by the App Store’s privacy policy guidelines.</li>
-                <li><Link jump src="[19]" id="[19]" />Company – please confirm.</li>
-                <li><Link jump src="[20]" id="[20]" />Company: if you share personal data with third parties for <span class="bold underline">their own</span> marketing purposes, California privacy law requires that you either: (a) offer an opt out from sharing information with third parties (see first paragraph here) or (b) provide certain disclosures regarding the sharing of personal information with third parties (see second paragraph here).  Please select one of the options.</li>
+                <li><Link jump disp="[ 8]" src="[8]" id="[8]" />Company - we understand you have a social media presence  and we proposed to cover collection of data through these pages. We assume you also receive from the social media sites aggregate statics about visitors – please confirm, and if possible provide details as to the type of data that you receive from the social media sites.</li>
+                <li><Link jump disp="[ 9]" src="[9]" id="[9]" />For B2B policies</li>
+                <li><Link jump disp="[ 11]" src="[11]" id="[11]" />Company - this is a basic description of information generally collected automatically and sent to the company’s servers. Please review and confirm if this reflects your practices.</li>
+                <li><Link jump disp="[ 12]" src="[12]" id="[12]" />Company – this is to cover email pixels in marketing campaigns (i.e., through Mailchimp). Please confirm/modify as appropriate.</li>
+                <li><Link jump disp="[ 13]" src="[13]" id="[13]" />Company – this disclosures are required by Google’s Terms of Service.</li>
+                <li><Link jump disp="[ 14]" src="[14]" id="[14]" />Company – this disclosure is required by California law if you are engaging in OBA/retargeting. Some of our clients that don’t engage in those activities still elect to leave this in, however, so they don’t need to update the privacy policy if/when practices change. The bracketed disclosures here are required by Facebook Pixel’s terms.</li>
+                <li><Link jump disp="[ DE15]" src="[DE15]" id="[DE15]" />Company – please confirm.</li>
+                <li><Link jump disp="[ 16]" src="[16]" id="[16]" />Company – please confirm.</li>
+                <li><Link jump disp="[ 17]" src="[17]" id="[17]" />Company – this disclosure is required by the App Store’s privacy policy guidelines. Please confirm you comply with this.</li>
+                <li><Link jump disp="[ 18]" src="[18]" id="[18]" />Company – this disclosure is required by the App Store’s privacy policy guidelines.</li>
+                <li><Link jump disp="[ 19]" src="[19]" id="[19]" />Company – please confirm.</li>
+                <li><Link jump disp="[ 20]" src="[20]" id="[20]" />Company: if you share personal data with third parties for <span class="bold underline">their own</span> marketing purposes, California privacy law requires that you either: (a) offer an opt out from sharing information with third parties (see first paragraph here) or (b) provide certain disclosures regarding the sharing of personal information with third parties (see second paragraph here).  Please select one of the options.</li>
               </ul>
               <p>Under the first option, users have the absolute right to prevent you from sharing information, but it is probably slightly easier to administer compared to the second paragraph.  Please let us know if you’d like to discuss.</p>
               <p>
                 The paragraph corresponding to the option you do not select can be deleted.
                 <ul class="no-list-style no-list-indent">
-                  <li><Link jump src="[21]" id="[21]" />Company – are the services available internationally/in the EU? If so you may want to consider implementing a compliance program to address the European Union’s GDPR. This is a placeholder that mitigates associated risk to some extent but does not make Company compliant with the GDPR.</li>
-                  <li><Link jump src="[GP22]" id="[GP22]" />To confirm with Company</li>
-                  <li><Link jump src="[23]" id="[23]" />Company – we recommend a privacy-specific address (i.e., privacy@company.com) to facilitate responding to privacy inquiries/requests. You can also add a contact us page, a phone number, or a post address.</li>
+                  <li><Link jump disp="[ 21]" src="[21]" id="[21]" />Company – are the services available internationally/in the EU? If so you may want to consider implementing a compliance program to address the European Union’s GDPR. This is a placeholder that mitigates associated risk to some extent but does not make Company compliant with the GDPR.</li>
+                  <li><Link jump disp="[ 21]" src="[GP22]" id="[GP22]" />To confirm with Company</li>
+                  <li><Link jump disp="[ 23]" src="[23]" id="[23]" />Company – we recommend a privacy-specific address (i.e., privacy@company.com) to facilitate responding to privacy inquiries/requests. You can also add a contact us page, a phone number, or a post address.</li>
                 </ul>
                 In addition, please convert the “contact us” links above so they populate emails to the appropriate email address.
               </p>

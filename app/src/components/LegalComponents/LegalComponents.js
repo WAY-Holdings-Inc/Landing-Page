@@ -10,7 +10,7 @@ class Link extends React.Component {
       )
     } else if (this.props.jump) {
       return (
-        <a href={"#" + this.props.src} id={this.props.id} class="way-blue">{this.props.src}</a>
+        <a href={"#" + this.props.src} id={this.props.id} class="way-blue">{(this.props.disp === undefined) ? this.props.src : this.props.disp}</a>
       )
     }
     return (
