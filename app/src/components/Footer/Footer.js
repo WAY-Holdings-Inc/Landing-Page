@@ -74,8 +74,8 @@ function Footer() {
                     <Col sm={3}></Col>
                     <Col sm={6} >
                         <ul className="legal-nav">
-                            <li><a id="terms" href="/terms">Terms of Service</a></li>
-                            <li><a id="privacy" href="/privacy">Privacy Policy</a></li>
+                            <li><Link id="terms" to="/terms">Terms of Service</Link></li>
+                            <li><Link id="privacy" to="/privacy">Privacy Policy</Link></li>
                         </ul></Col>
                     <Col sm={3}></Col>
                 </Row>
