@@ -57,8 +57,31 @@
     .mo-center {
         text-align: center;
     }
+
+    .legal-navbar {
+        position: relative;
+        bottom: -320px;
+    }
+
+    .legal-nav li {
+        padding: 0 0;
+        padding-left: 30%;
+    }
+    .legal-nav li a {
+        text-align: center;
+    }
 }
 
+@media (max-width: 768px) {
+
+    #terms {
+        width: 100%;    
+    }
+    
+    #privacy {
+        width: 100%;
+    }
+}
 .holding {
     background-color: #FAFAFA;
     padding: 0%;
@@ -79,4 +102,42 @@
     padding: 1vw;
     cursor: pointer;
 
+}
+
+.legal-navbar {
+    background-color: #333333;
+    min-height: 70px;
+}
+
+.legal-nav {
+    margin: auto;
+    padding: 1% 15%;
+}
+
+.legal-nav li {
+    display: inline;
+}
+
+.legal-nav li a {
+    /* Legal navbar links */
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 2%;
+    font-family: 'BrandonText-bold';
+    font-weight: bolder;
+}
+
+#terms {
+    margin: 0;
+    position: absolute;
+    left: 20%;
+    top: 10px;
+}
+
+#privacy {
+    position: absolute;
+    margin: 0;
+    right: 20%;
+    top: 10px;
 }

@@ -1,0 +1,62 @@
+h1 {
+  font-family: 'BrandonText-bold';
+  font-size: 36pt;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: 'BrandonText-normal';
+  font-size: 24pt;
+}
+
+h3 {
+  font-family: 'BrandonText-bold';
+  font-weight: bolder;
+  font-size: 16pt;
+}
+
+.subtitle {
+  font-family: 'BrandonText-normal';
+  font-size: 14pt;
+  font-weight: bold;
+  color: gray;
+
+}
+
+br {
+  height: 30px;
+}
+
+p {
+  font-family: 'BrandonText-normal';
+}
+
+article {
+  margin-top: 80px;
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.header-bold {
+  font-weight: bold;
+  font-family: 'BrandonText-bold';
+}
+
+.italic {
+  font-style: italic;
+}
+
+ol > li {
+  list-style: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.list-clause-header {
+  list-style: none;
+}

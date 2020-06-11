@@ -1,0 +1,23 @@
+
+h1 {
+  font-family: 'BrandonText-bold';
+  font-size: 36pt;
+  font-weight: bolder;
+}
+
+.header-block {
+  margin-bottom: 50px;
+}
+
+p {
+  font-family: 'BrandonText-normal';
+}
+
+article {
+  margin-top: 80px;
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
+}

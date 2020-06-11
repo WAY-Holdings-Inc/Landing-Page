@@ -8,8 +8,8 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Start from './components/Start/Start';
-
-
+import Privacy from './components/Privacy/Privacy';
+import Terms from './components/Terms/Terms';
 
 import * as serviceWorker from './serviceWorker';
 
@@ -26,11 +26,13 @@ const routing = (
     <div>
       <Header />
       <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route path="/about" component={About}/>
-        <Route path="/contact" component={Contact}/>
-        <Route path="/start" component={Start}/>
-        <Route component={Home}/>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/start" component={Start} />
+        <Route path="/privacy" component={Privacy} />
+        <Route path="/terms" component={Terms} />
+        <Route component={Home} />
       </Switch>
     </div>
   </Router>

@@ -1,0 +1,97 @@
+h1 {
+  font-family: 'BrandonText-bold';
+  font-size: 36pt;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: 'BrandonText-normal';
+  font-size: 24pt;
+}
+
+h3 {
+  font-family: 'BrandonText-bold';
+  font-weight: bolder;
+  font-size: 16pt;
+}
+
+.subtitle {
+  font-family: 'BrandonText-normal';
+  font-size: 14pt;
+  font-weight: bold;
+  color: gray;
+
+}
+
+br {
+  height: 30px;
+}
+
+p {
+  font-family: 'BrandonText-normal';
+}
+
+article {
+  margin-top: 80px;
+  text-align: left;
+}
+
+.bold {
+  font-family: 'BrandonText-bold';
+  font-weight: bolder;
+}
+
+.header-bold {
+  font-weight: bold;
+  font-family: 'BrandonText-bold';
+}
+
+.italic {
+  font-style: italic;
+}
+
+ol > li {
+  list-style: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+
+.no-list-style {
+  list-style: none;
+}
+
+.no-list-indent {
+  list-style: none;
+  padding-left: 0
+}
+
+a {
+  color: #12B2EB;
+}
+.way-blue {
+  color: #12B2EB;
+}
+
+#conditions-of-use-list {
+  margin-left: 20px;
+}
+
+.ip-rights-list {
+  margin-left: 15px;
+}
+
+.ip-rights-list-elt {
+  padding-left: 10px;
+}
+
+ul > li {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+ul {
+  margin-left: 0px;
+}
