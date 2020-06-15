@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: auto;
+}
+
 h1 {
   font-family: 'BrandonText-bold';
   font-size: 36pt;
