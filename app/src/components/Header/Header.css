@@ -26,14 +26,20 @@
 
 
 .nav-option {
-    color: #6C6C6C;
     margin: .5em;
     text-align: center;
 }
 
+.nav-option a {
+    color: #6C6C6C;
+}
+
+.nav-option a:hover {
+    color: black;
+}
+
 
 .way-button {
-    color: #ffffff;
     background-color: #12B2EB;
     border-radius: 45px;
     width: 9.5em;
@@ -45,10 +51,8 @@
 
 }
 
-
-.way-button:hover {
+.way-button a, .way-button a:hover{
     color: #ffffff;
-
 }
 
 .way-logo {

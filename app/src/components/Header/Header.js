@@ -19,10 +19,8 @@ function Header(props) {
           <React.Fragment>
             <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-nav" />
             <Navbar.Collapse className="justify-content-end way-options" id="responsive-nav">
-              <Nav.Link onClick={() => setExpanded(false)
-
-              } data-toggle="collapse" className="nav-option"><Link className="unset" to="/#How">How it Works</Link></Nav.Link>
-              <Nav.Link onClick={() => setExpanded(false)} data-toggle="collapse" className="nav-option"><Link className="unset" to="/#benefits">Benefits</Link></Nav.Link>
+              <Nav.Link onClick={() => setExpanded(false)} data-toggle="collapse" className="nav-option"><Link className="unset" smooth={true} to="/#How">How it Works</Link></Nav.Link>
+              <Nav.Link onClick={() => setExpanded(false)} data-toggle="collapse" className="nav-option"><Link className="unset" smooth={true} to="/#benefits">Benefits</Link></Nav.Link>
               <Nav.Link onClick={() => setExpanded(false)} data-toggle="collapse" className="nav-option"><Link className="unset" to="/about">About</Link></Nav.Link>
               <Nav.Link onClick={() => setExpanded(false)} data-toggle="collapse" className="nav-option"><Link className="unset" to="/contact">Contact Us</Link></Nav.Link>
               <Nav.Link onClick={() => setExpanded(false)} data-toggle="collapse" className="way-button"><Link className="unset" to="/start">Get Started</Link></Nav.Link>

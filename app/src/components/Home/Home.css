@@ -53,6 +53,10 @@ body{
     margin-bottom: 0;
 }
 
+.learn-more a:hover {
+    color:#12B2EB;
+}
+
 #How h1 {
     padding-top: 50px;
 }
