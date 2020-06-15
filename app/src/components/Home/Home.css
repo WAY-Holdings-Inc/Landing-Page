@@ -1,6 +1,5 @@
 body{
     overflow-x: hidden;
-
 }
 
 .way-container {
@@ -12,7 +11,6 @@ body{
     padding-right: 4vw;
 
 }
-
 
 .way-containerl {
     padding-top: 13vw;
@@ -49,6 +47,22 @@ body{
 .way-intro {
     padding-left: 4vw !important;
     padding-right: 4vw !important;
+}
+
+.way-container#How {
+    margin-bottom: 0;
+}
+
+.learn-more a:hover {
+    color:#12B2EB;
+}
+
+#How h1 {
+    padding-top: 50px;
+}
+
+#benefits {
+    padding-top: 150px;
 }
 
 /* For mobile responsiveness */

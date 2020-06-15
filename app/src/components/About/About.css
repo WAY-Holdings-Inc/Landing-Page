@@ -73,6 +73,10 @@
   cursor: pointer;
 }
 
+.way-containerx#efficiency{
+  padding-top: 125px !important;
+}
+
 .skew {
   width: 100%;
 }

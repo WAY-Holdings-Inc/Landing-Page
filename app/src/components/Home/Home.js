@@ -28,29 +28,29 @@ function Home() {
                 <Row>
                     <Col lg={7}>
                         <div className="home-title">
-                                <h1>
-                                    <span className="way-c">Way</span> is here to help
+                            <h1>
+                                <span className="way-c">Way</span> is here to help
                                 </h1>
-                                <p>
-                                    During this time of uncertainty, we understand how difficult it is to be a restaurant in Ithaca. As Cornell students, we wanted to do our part to help our community as it adjusts to new conditions during the COVID-19 pandemic. With that in mind, we created a way for you to thrive in the new age of no-contact.
+                            <p>
+                                During this time of uncertainty, we understand how difficult it is to be a restaurant in Ithaca. As Cornell students, we wanted to do our part to help our community as it adjusts to new conditions during the COVID-19 pandemic. With that in mind, we created a way for you to thrive in the new age of no-contact.
                                 </p>
 
-                                <div className="d-block">
-                            <p className="way-c mb-0"><a href="#learn" style={{all: "unset"}}>Learn More</a></p>
-                            <a className="arrow-down"href="#learn" style={{all: "unset"}}><img src={arrow} alt="Down arrow"/></a>
+                            <div className="d-block">
+                                <p className="mb-0 learn-more"><Link className="unset way-c" smooth={true} to="/#learn">Learn More</Link></p>
+                                <a className="arrow-down" href="#learn" style={{ all: "unset" }}><img src={arrow} alt="Down arrow" /></a>
+                            </div>
                         </div>
-                        </div>
-                       
+
                     </Col>
                     <Col lg={5} className="store text-center">
-                        <img src={store} alt="Store open"/>
+                        <img src={store} alt="Store open" />
                     </Col>
                 </Row>
             </Container>
             <Container fluid className="way-containerb way-intro" id="learn">
                 <Row className="parent">
                     <Col className="phonez text-center b" lg={6}>
-                        <img src={phone} className="" alt="Phone"/>
+                        <img src={phone} className="" alt="Phone" />
                     </Col>
                     <Col className="phonez c">
                         <h1 className="way-phone-text">Improve your margins with <span className="way-underline">contactless</span> ordering & payments</h1>
@@ -66,21 +66,21 @@ function Home() {
                 </Row>
                 <Row>
                     <Col >
-                        <img className="way-restaurant-image" src={restaurant1} alt="Restaurant1"/>
+                        <img className="way-restaurant-image" src={restaurant1} alt="Restaurant1" />
                         <div className="way-restaurant-texts">
                             <h3>Customers Scan</h3>
                             <p>Customers scan a QR code to view your digital menu, place an order, and pay with Way.</p>
                         </div>
                     </Col>
                     <Col>
-                        <img className="way-restaurant-image" src={restaurant2} alt="Restaurant1"/>
+                        <img className="way-restaurant-image" src={restaurant2} alt="Restaurant1" />
                         <div className="way-restaurant-texts">
                             <h3>You Prepare</h3>
                             <p>Your restaurant accepts and prepares the order, contact-free. No paper tickets, no cards, no cash, no pens.</p>
                         </div>
                     </Col>
                     <Col>
-                        <img className="way-restaurant-image" src={restaurant3} alt="Restaurant1"/>
+                        <img className="way-restaurant-image" src={restaurant3} alt="Restaurant1" />
                         <div className="way-restaurant-texts">
                             <h3>Everyone Enjoys</h3>
                             <p>Customers get their order without having to wait in line and you boost in-store sales with less effort.</p>
@@ -98,23 +98,23 @@ function Home() {
             </Container>
             <Container className="way-containerl way-right">
                 <Row className="parent">
-                    <Col className ="c" lg={5}>
+                    <Col className="c" lg={5}>
                         <h1>Experience more in-store</h1>
                         <p>
                             We offer digital tools to modernize your front and back of house operations. Our platform is purpose-built to increase your orders, throughput, and customer satisfaction.
                         </p>
                     </Col>
                     <Col className="text-center b">
-                        <img src={experience} alt="Store open"/>
+                        <img src={experience} alt="Store open" />
                     </Col>
                 </Row>
             </Container>
             <Container className="way-containerl way-left-sp">
                 <Row className="parent">
                     <Col lg={5} className="text-center b">
-                        <img src={commissions} alt="Commissions"/>
+                        <img src={commissions} alt="Commissions" />
                     </Col>
-                    <Col  className ="c">
+                    <Col className="c">
                         <h1>Reduce Commissions</h1>
                         <p>
                             Accept digital orders without the commissions and service fees charged by third-party delivery companies. Save anywhere from 10%-30% on every order.
@@ -131,16 +131,16 @@ function Home() {
                         </p>
                     </Col>
                     <Col className="text-center">
-                        <img src={ipad} alt="iPad"/>
+                        <img src={ipad} alt="iPad" />
                     </Col>
                 </Row>
             </Container>
             <Container className="way-containerl way-left">
                 <Row className="parent">
                     <Col lg={6} className="text-center b">
-                        <img src={customers} alt="Customers"/>
+                        <img src={customers} alt="Customers" />
                     </Col>
-                    <Col className="c"> 
+                    <Col className="c">
                         <h1>Delight your customers</h1>
                         <p>Save your guests time and hassle by letting them scan to order and pay the second they arrive. Our platform queues orders in the cloud so you can reduce your line at the register.</p>
                     </Col>
@@ -155,16 +155,16 @@ function Home() {
                         </p>
                     </Col>
                     <Col className="text-center">
-                        <img src={iphone} alt="iPad"/>
+                        <img src={iphone} alt="iPad" />
                     </Col>
                 </Row>
             </Container>
             <Container className="way-containerl way-left">
                 <Row className="parent">
                     <Col lg={6} className="text-center b">
-                        <img src={map} alt="Map"/>
+                        <img src={map} alt="Map" />
                     </Col>
-                    <Col className="c"> 
+                    <Col className="c">
                         <h1>Reach new customers</h1>
                         <p>Grow your sales by connecting with more people when they’re hungry. We feature your menu on our platform so that new customers can discover your restaurant.</p>
                     </Col>
@@ -172,20 +172,21 @@ function Home() {
             </Container>
             <Container className="text-center way-get-started mb-5">
                 <Row>
-                    <Col className = "transform"xs={12}>
+                    <Col className="transform" xs={12}>
                         <h1>Transform your ordering and payments.</h1>
                     </Col>
                     <Col xs={12}>
                         <h1>Countless benefits, one <span className="way-c">WAY</span>.</h1>
                     </Col>
                     <Col xs={12} className="text-center mt-5">
-                        <span className="way-buttondown"><Link to="/start" style={{all: 'unset'}}>Get Started</Link></span>
+                        <span className="way-buttondown"><Link to="/start" style={{ all: 'unset' }}>Get Started</Link></span>
                     </Col>
                 </Row>
             </Container>
             <Footer />
         </div>
     )
+
 }
 
 export default Home
