@@ -7,6 +7,30 @@
 
 }
 
+.navbar{
+    width: 80%;
+    padding: 0 !important;
+    margin-bottom: 1rem;
+}
+
+.navbar-toggler {
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.collapsed {
+    margin-bottom: 1rem;
+}
+
+.way-logo{
+
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer; 
+}
+
 .way-options {
     z-index: 3;
     color: #6C6C6C;
@@ -25,12 +49,19 @@
 
 
 
-.nav-option {
-    color: #6C6C6C;
+.nav-option{
+
     margin: .5em;
     text-align: center;
 }
 
+.nav-option a {
+    color: #6C6C6C;
+}
+
+.nav-option a:hover {
+    color: black;
+}
 
 .way-button {
     color: #ffffff;
@@ -45,16 +76,13 @@
 
 }
 
-
-.way-button:hover {
+.way-button a {
     color: #ffffff;
+}    
 
-}
 
-.way-logo {
-    margin: 2vw;
-    cursor: pointer;
-
+.way-button a:hover {
+    color: #ffffff;
 }
 
 @media (max-width: 600px) {
@@ -75,12 +103,12 @@
 
     }
 
+
     .way-button {
-    
-        margin-left: 30vw;
-        
-    
+        margin-left: auto;
+        margin-right: auto;
     }
+
     
 
 }

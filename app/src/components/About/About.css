@@ -73,6 +73,10 @@
   cursor: pointer;
 }
 
+.learn a, .learn a:hover {
+  color:#12B2EB;
+}
+
 .skew {
   width: 100%;
 }
