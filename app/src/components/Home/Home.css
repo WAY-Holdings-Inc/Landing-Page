@@ -419,12 +419,9 @@ padding-top: 20%;
     justify-content: center;
 
     font-size: 22px;
-
-
-
 }
 
-@media  (max-width: 600px) {
+@media  (max-width: 780px) {
 
     .way-right-sp h1, .way-right p, .way-right h1, .way-right-sp p, .way-get-started h1, .way-left p, .way-left h1, .way-right-ipad p, .way-right-ipad h1 {
         text-align: center;

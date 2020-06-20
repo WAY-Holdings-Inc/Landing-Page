@@ -22,18 +22,16 @@ import './index.css';
 
 const routing = (
   <Router>
-    <div>
-      <Header />
-      <Switch>
-        <ScrollToTopRoute exact path="/" component={Home} />
-        <ScrollToTopRoute path="/about" component={About} />
-        <ScrollToTopRoute path="/contact" component={Contact} />
-        <ScrollToTopRoute path="/start" component={Start} />
-        <ScrollToTopRoute path="/privacy" component={Privacy} />
-        <ScrollToTopRoute path="/terms" component={Terms} />
-        <ScrollToTopRoute component={Home} />
-      </Switch>
-    </div>
+    <Header />
+    <Switch>
+      <ScrollToTopRoute exact path="/" component={Home} />
+      <ScrollToTopRoute path="/about" component={About} />
+      <ScrollToTopRoute path="/contact" component={Contact} />
+      <ScrollToTopRoute path="/start" component={Start} />
+      <ScrollToTopRoute path="/privacy" component={Privacy} />
+      <ScrollToTopRoute path="/terms" component={Terms} />
+      <ScrollToTopRoute component={Home} />
+    </Switch>
   </Router>
 )
 

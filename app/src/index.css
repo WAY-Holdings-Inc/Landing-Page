@@ -27,15 +27,10 @@ code {
   --way-color: #12B2EB;
 }
 
-.way-c {
-  color: var(--way-color);
+#root {
+  width:100vw;
 }
 
-.way-nav {
-  top: 0px;
-  height: 75px;
-  width: 100%;
-  position: fixed;
-  margin-bottom: 50px;
-
+.way-c {
+  color: var(--way-color);
 }

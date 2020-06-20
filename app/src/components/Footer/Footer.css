@@ -40,7 +40,7 @@
     padding-inline-start: 0;
 }
 
-.footer-links li a {
+.footer-links li a, .footer-links li a:hover {
     background-color: #FAFAFA;
     font-family: "BrandonText-bold";
     font-style: normal;
@@ -48,7 +48,11 @@
     font-size: 18px;
     line-height: 22px;
     color: #6C6C6C;
+    text-decoration: none;
+}
 
+.footer-links li a:hover {
+    color: black;
 }
 
 @media (max-width: 576px) {
