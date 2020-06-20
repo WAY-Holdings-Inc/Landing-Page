@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
 
 // Import components
 import Header from './components/Header/Header';
@@ -13,26 +13,25 @@ import Terms from './components/Terms/Terms';
 
 import * as serviceWorker from './serviceWorker';
 
+// Import scroll wrapper
+import ScrollToTopRoute from './scrollToTop';
+
 // Enable Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-
-
-
-
 
 const routing = (
   <Router>
     <div>
       <Header />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/start" component={Start} />
-        <Route path="/privacy" component={Privacy} />
-        <Route path="/terms" component={Terms} />
-        <Route component={Home} />
+        <ScrollToTopRoute exact path="/" component={Home} />
+        <ScrollToTopRoute path="/about" component={About} />
+        <ScrollToTopRoute path="/contact" component={Contact} />
+        <ScrollToTopRoute path="/start" component={Start} />
+        <ScrollToTopRoute path="/privacy" component={Privacy} />
+        <ScrollToTopRoute path="/terms" component={Terms} />
+        <ScrollToTopRoute component={Home} />
       </Switch>
     </div>
   </Router>

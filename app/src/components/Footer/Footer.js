@@ -32,8 +32,6 @@ function Footer() {
                             </ul>
                         </Col>
 
-
-
                         <Col className="footer-links" sm>
                             <h5 className="title">MERCHANTS</h5>
                             <ul className="clear-padding-inline">
@@ -45,8 +43,6 @@ function Footer() {
                                 </li>
                             </ul>
                         </Col>
-
-
 
                         <Col className="footer-links" sm>
                             <h5 className="title">FOLLOW US</h5>

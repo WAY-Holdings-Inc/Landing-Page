@@ -36,7 +36,7 @@ function Home() {
                                 </p>
 
                             <div className="d-block">
-                                <p className="way-c mb-0"><a className="learn" href="#learn" style={{ all: "unset" }}>Learn More</a></p>
+                                <p className="mb-0 learn-more"><Link className="unset way-c" smooth={true} to="/#learn">Learn More</Link></p>
                                 <a className="arrow-down" href="#learn" style={{ all: "unset" }}><img src={arrow} alt="Down arrow" /></a>
                             </div>
                         </div>
@@ -186,6 +186,7 @@ function Home() {
             <Footer />
         </div>
     )
+
 }
 
 export default Home

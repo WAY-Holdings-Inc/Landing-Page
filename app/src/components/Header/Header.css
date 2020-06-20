@@ -30,7 +30,6 @@
     font-size: 18px;
     font-family: 'BrandonText-bold';
     position: relative;
-
 }
 
 
@@ -39,24 +38,22 @@
     color: #12B2EB;
 }
 
-
-
-.nav-option{
-
+.nav-option {
     margin: .5em;
     text-align: center;
 }
 
 .nav-option a {
     color: #6C6C6C;
+    text-decoration: none;
 }
 
 .nav-option a:hover {
     color: black;
+    text-decoration: none;
 }
 
 .way-button {
-    color: #ffffff;
     background-color: #12B2EB;
     border-radius: 45px;
     width: 9.5em;
@@ -68,10 +65,18 @@
 
 }
 
-.way-button a {
+.way-button a, .way-button a:hover{
     color: #ffffff;
-}    
+}
 
+.way-buttondown a, .way-buttondown a:hover {
+    color: #ffffff;
+}
+
+.way-logo {
+    margin: 2vw;
+    cursor: pointer;
+}
 
 .way-button a:hover {
     color: #ffffff;
