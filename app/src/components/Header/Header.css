@@ -86,11 +86,21 @@ nav.way-nav {
     color: #ffffff;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
+
+    .way-logo {
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+
     .way-options {
         background-color: #FFF;
         text-align: center;
+        padding: 1rem 0;
+    }
 
+    .way-button {
+        margin: 1rem auto 1rem auto;
     }
 
 }
@@ -99,12 +109,6 @@ nav.way-nav {
     .way-options {
         background-color: #FFF;
         text-align: center;
-    }
-
-
-    .way-button {
-        margin-left: auto;
-        margin-right: auto;
     }
 
 }

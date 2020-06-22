@@ -15,7 +15,6 @@ body {
   font-family: 'BrandonText-normal';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 code {
@@ -25,10 +24,6 @@ code {
 
 :root {
   --way-color: #12B2EB;
-}
-
-#root {
-  width:100vw;
 }
 
 .way-c {
