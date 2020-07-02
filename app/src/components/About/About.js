@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Container, Row, Col } from 'react-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
-import Footer from '../Footer/Footer';
 
 import skew from './assets/slant.svg';
 import efficiency from './assets/efficiency.svg';
@@ -10,8 +9,6 @@ import digital from './assets/digital.svg';
 import arrow from '../Home/assets/arrow.svg';
 
 import './About.css';
-
-
 
 function About() {
     return (
@@ -84,7 +81,6 @@ function About() {
                     </Col>
                 </Row>
             </Container>
-            <Footer />
         </div>
     )
 

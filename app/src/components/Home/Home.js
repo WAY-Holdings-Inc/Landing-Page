@@ -3,8 +3,6 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
 
-import Footer from '../Footer/Footer';
-
 import './Home.css'
 
 import store from './assets/store.svg';
@@ -183,7 +181,6 @@ function Home() {
                     </Col>
                 </Row>
             </Container>
-            <Footer />
         </div>
     )
 
