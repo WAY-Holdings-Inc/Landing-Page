@@ -47,12 +47,12 @@ nav.way-nav {
     text-align: center;
 }
 
-.nav-option a {
+a.nav-option {
     color: #6C6C6C;
     text-decoration: none;
 }
 
-.nav-option a:hover {
+a.nav-option:hover {
     color: black;
     text-decoration: none;
 }
@@ -68,12 +68,12 @@ nav.way-nav {
     justify-content: center;
 }
 
-.way-button a, .way-button a:hover{
+a.way-button, a.way-button:hover{
     color: #ffffff;
     text-decoration: none;
 }
 
-.way-buttondown a, .way-buttondown a:hover {
+a.way-buttondown, a.way-buttondown:hover {
     color: #ffffff;
 }
 
@@ -82,9 +82,6 @@ nav.way-nav {
     cursor: pointer;
 }
 
-.way-button a:hover {
-    color: #ffffff;
-}
 
 @media (max-width: 1200px) {
 

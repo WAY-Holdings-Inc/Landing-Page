@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { Container, Row, Col } from 'react-bootstrap';
-import Footer from '../Footer/Footer';
 import { Link, TitledParagraph, ListHeader } from '../LegalComponents/LegalComponents'
 
 import '../LegalComponents/LegalStyles.css';
@@ -33,7 +32,7 @@ function Privacy() {
               </p>
               </section>
               <section>
-                <h2 class="header-bold">Access and Use of the Service</h2>
+                <h2 className="header-bold">Access and Use of the Service</h2>
                 <br />
                 <TitledParagraph header="Services Description:" content="The Service is designed to serve as a digital ordering and payments platform for partnered merchants." />
                 <TitledParagraph header="Your Registration Obligations:" content="You may be required to register with Company in order to access and use certain features of the Service.  If you choose to register for the Service, you agree to provide and maintain true, accurate, current and complete information about yourself as prompted by the Service’s registration form.  Registration data and certain other information about you are governed by our Privacy Policy. If you are under 13 years of age, you are not authorized to use the Service, with or without registering.  In addition, if you are under 18 years old, you may use the Service, with or without registering, only with the approval of your parent or guardian." />
@@ -41,7 +40,7 @@ function Privacy() {
                 <TitledParagraph header="Modifications to Service:" content="Company reserves the right to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with or without notice. You agree that Company will not be liable to you or to any third party for any modification, suspension or discontinuance of the Service." />
                 <TitledParagraph header="General Practices Regarding Use and Storage:" content="You acknowledge that Company may establish general practices and limits concerning use of the Service, including without limitation the maximum period of time that data or other content will be retained by the Service and the maximum storage space that will be allotted on Company’s servers on your behalf. You agree that Company has no responsibility or liability for the deletion or failure to store any data or other content maintained or uploaded by the Service. You acknowledge that Company reserves the right to terminate accounts that are inactive for an extended period of time. You further acknowledge that Company reserves the right to change these general practices and limits at any time, in its sole discretion, with or without notice." />
                 <p>
-                  <span class="bold">Mobile Services: </span>
+                  <span className="bold">Mobile Services: </span>
                 The Service includes certain services that are available via a mobile device, including (i) the ability to upload content to the Service via a mobile device, (ii) the ability to browse the Service and the Site from a mobile device and (iii) the ability to access certain features through an application downloaded and installed on a mobile device (collectively, the “Mobile Services”). To the extent you access the Service through a mobile device, your wireless service carrier’s standard charges, data rates and other fees may apply.  In addition, downloading, installing, or using certain Mobile Services may be prohibited or restricted by your carrier, and not all Mobile Services may work with all carriers or devices. By using the Mobile Services, you agree that we may communicate with you regarding Company and other entities by SMS, MMS, text message or other electronic means to your mobile device and that certain information about your usage of the Mobile Services may be communicated to us.  In the event you change or deactivate your mobile telephone number, you agree to promptly update your Company account information to ensure that your messages are not sent to the person that acquires your old number.
                 Also, note that the Telephone Consumer Protection Act (TCPA) regulates how companies may send automated SMS or MMS messages to customers (including a requirement to obtain specific advance consent) and that there can be material risk associated with non-compliance, including class action claims.  If your company will be sending SMS or MMS messages using automated means, please let us know so we can insert additional language and provide you with recommended consent disclosure for your user flow.
                 </p>
@@ -65,7 +64,7 @@ function Privacy() {
                 <TitledParagraph header="Commercial Use:" content="Unless otherwise expressly authorized herein or in the Service, you agree not to display, distribute, license, perform, publish, reproduce, duplicate, copy, create derivative works from, modify, sell, resell, exploit, transfer or upload for any commercial purposes, any portion of the Service, use of the Service, or access to the Service." />
               </section>
               <section>
-                <h2 class="header-bold">Third Party Distribution Channels</h2>
+                <h2 className="header-bold">Third Party Distribution Channels</h2>
                 <p>Company offers Software applications that may be made available through the Apple App Store, Android Marketplace or other distribution channels (“Distribution Channels”).  If you obtain such Software through a Distribution Channel, you may be subject to additional terms of the Distribution Channel.  These Terms of Service are between you and us only, and not with the Distribution Channel.  To the extent that you utilize any other third party products and services in connection with your use of our Services, you agree to comply with all applicable terms of any agreement for such third party products and services.</p>
                 <p>With respect to Software that is made available for your use in connection with an Apple-branded product (such Software, “Apple-Enabled Software”), in addition to the other terms and conditions set forth in these Terms of Service, the following terms and conditions apply:</p>
                 <ul>
@@ -93,53 +92,53 @@ function Privacy() {
                 <TitledParagraph header="Copyright Complaints:" content="Company respects the intellectual property of others, and we ask our users to do the same.  If you believe that your work has been copied in a way that constitutes copyright infringement, or that your intellectual property rights have been otherwise violated, you should notify Company of your infringement claim in accordance with the procedure set forth below." />
                 <p>Company will process and investigate notices of alleged infringement and will take appropriate actions under the Digital Millennium Copyright Act (“DMCA”) and other applicable intellectual property laws with respect to any alleged or actual infringement.  A notification of claimed copyright infringement should be emailed to Company at <Link email src="business@paywithway.com" /> (Subject line:  “DMCA Takedown Request”).</p>
                 <p>To be effective, the notification must be in writing and contain the following information:</p>
-                <ul class="ip-rights-list">
-                  <li class="ip-rights-list-elt">an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright or other intellectual property interest;</li>
-                  <li class="ip-rights-list-elt">a description of the copyrighted work or other intellectual property that you claim has been infringed;</li>
-                  <li class="ip-rights-list-elt">a description of where the material that you claim is infringing is located on the Service, with enough detail that we may find it on the Service;</li>
-                  <li class="ip-rights-list-elt">your address, telephone number, and email address;</li>
-                  <li class="ip-rights-list-elt">a statement by you that you have a good faith belief that the disputed use is not authorized by the copyright or intellectual property owner, its agent, or the law;</li>
-                  <li class="ip-rights-list-elt">a statement by you, made under penalty of perjury, that the above information in your Notice is accurate and that you are the copyright or intellectual property owner or authorized to act on the copyright or intellectual property owner’s behalf.</li>
+                <ul className="ip-rights-list">
+                  <li className="ip-rights-list-elt">an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright or other intellectual property interest;</li>
+                  <li className="ip-rights-list-elt">a description of the copyrighted work or other intellectual property that you claim has been infringed;</li>
+                  <li className="ip-rights-list-elt">a description of where the material that you claim is infringing is located on the Service, with enough detail that we may find it on the Service;</li>
+                  <li className="ip-rights-list-elt">your address, telephone number, and email address;</li>
+                  <li className="ip-rights-list-elt">a statement by you that you have a good faith belief that the disputed use is not authorized by the copyright or intellectual property owner, its agent, or the law;</li>
+                  <li className="ip-rights-list-elt">a statement by you, made under penalty of perjury, that the above information in your Notice is accurate and that you are the copyright or intellectual property owner or authorized to act on the copyright or intellectual property owner’s behalf.</li>
                 </ul>
                 <TitledParagraph noindent header="Counter-Notice:" content="If you believe that your User Content that was removed (or to which access was disabled) is not infringing, or that you have the authorization from the copyright owner, the copyright owner’s agent, or pursuant to the law, to upload and use the content in your User Content, you may send a written counter-notice containing the following information to the Copyright Agent:" />
-                <ul class="ip-rights-list">
-                  <li class="ip-rights-list-elt">your physical or electronic signature;</li>
-                  <li class="ip-rights-list-elt">identification of the content that has been removed or to which access has been disabled and the location at which the content appeared before it was removed or disabled;</li>
-                  <li class="ip-rights-list-elt">a statement that you have a good faith belief that the content was removed or disabled as a result of mistake or a misidentification of the content; and</li>
-                  <li class="ip-rights-list-elt">your name, address, telephone number, and email address, a statement that you consent to the jurisdiction of the federal court located within Eastern District of New York and a statement that you will accept service of process from the person who provided notification of the alleged infringement.</li>
+                <ul className="ip-rights-list">
+                  <li className="ip-rights-list-elt">your physical or electronic signature;</li>
+                  <li className="ip-rights-list-elt">identification of the content that has been removed or to which access has been disabled and the location at which the content appeared before it was removed or disabled;</li>
+                  <li className="ip-rights-list-elt">a statement that you have a good faith belief that the content was removed or disabled as a result of mistake or a misidentification of the content; and</li>
+                  <li className="ip-rights-list-elt">your name, address, telephone number, and email address, a statement that you consent to the jurisdiction of the federal court located within Eastern District of New York and a statement that you will accept service of process from the person who provided notification of the alleged infringement.</li>
                 </ul>
                 <p>If a counter-notice is received by the Copyright Agent, Company will send a copy of the counter-notice to the original complaining party informing that person that it may replace the removed content or cease disabling it in 10 business days. Unless the copyright owner files an action seeking a court order against the content provider, member or user, the removed content may be replaced, or access to it restored, in 10 to 14 business days or more after receipt of the counter-notice, at our sole discretion.</p>
                 <TitledParagraph header="Repeat Infringer Policy:" content="In accordance with the DMCA and other applicable law, Company has adopted a policy of terminating, in appropriate circumstances and at Company's sole discretion, users who are deemed to be repeat infringers.  Company may also at its sole discretion limit access to the Service and/or terminate the memberships of any users who infringe any intellectual property rights of others, whether or not there is any repeat infringement." />
               </section>
               <section>
-                <h2 class="header-bold">Third Party Websites</h2>
+                <h2 className="header-bold">Third Party Websites</h2>
                 <p>
                   The Service may provide, or third parties may provide, links or other access to other sites and resources on the Internet. Company has no control over such sites and resources and Company is not responsible for and does not endorse such sites and resources.  You further acknowledge and agree that Company will not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any content, events, goods or services available on or through any such site or resource.   Any dealings you have with third parties found while using the Service are between you and the third party, and you agree that Company is not liable for any loss or claim that you may have against any such third party.
                 </p>
               </section>
               <section>
-                <h2 class="header-bold">Social Networking Services</h2>
+                <h2 className="header-bold">Social Networking Services</h2>
                 <p>You may enable or log in to the Service via various online third party services, such as social media and social networking services like Facebook or Twitter (“Social Networking Services”). By logging in or directly integrating these Social Networking Services into the Service, we make your online experiences richer and more personalized. To take advantage of this feature and capabilities, we may ask you to authenticate, register for or log into Social Networking Services on the websites of their respective providers. As part of such integration, the Social Networking Services will provide us with access to certain information that you have provided to such Social Networking Services, and we will use, store and disclose such information in accordance with our Privacy Policy. For more information about the implications of activating these Social Networking Services and Company’s use, storage and disclosure of information related to you and your use of such services within Company (including your friend lists and the like), please see our Privacy Policy at <Link src="www.paywithway.com/privacy" />. However, please remember that the manner in which Social Networking Services use, store and disclose your information is governed solely by the policies of such third parties, and Company shall have no liability or responsibility for the privacy practices or other actions of any third party site or service that may be enabled within the Service.</p>
                 <p>In addition, Company is not responsible for the accuracy, availability or reliability of any information, content, goods, data, opinions, advice or statements made available in connection with Social Networking Services. As such, Company is not liable for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such Social Networking Services. Company enables these features merely as a convenience and the integration or inclusion of such features does not imply an endorsement or recommendation.</p>
               </section>
               <section>
-                <h2 class="header-bold">Indemnity and Release</h2>
+                <h2 className="header-bold">Indemnity and Release</h2>
                 <p>You agree to release, indemnify and hold Company and its affiliates and their officers, employees, directors and agents (collectively, “Indemnitees”) harmless from any from any and all losses, damages, expenses, including reasonable attorneys’ fees, rights, claims, actions of any kind and injury (including death) arising out of or relating to your use of the Service, any User Content, your connection to the Service, your violation of these Terms of Service or your violation of any rights of another. Notwithstanding the foregoing, you will have no obligation to indemnify or hold harmless any Indemnitee from or against any liability, losses, damages or expenses incurred as a result of any action or inaction of such Indemnitee. If you are a California resident, you waive California Civil Code Section 1542, which says: “A general release does not extend to claims which the creditor does not know or suspect to exist in his favor at the time of executing the release, which if known by him must have materially affected his settlement with the debtor.” If you are a resident of another jurisdiction, you waive any comparable statute or doctrine.</p>
               </section>
               <section>
-                <h2 class="header-bold">Disclaimer of Warranties</h2>
+                <h2 className="header-bold">Disclaimer of Warranties</h2>
                 <p>YOUR USE OF THE SERVICE IS AT YOUR SOLE RISK. THE SERVICE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. COMPANY EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT.</p>
                 <p>COMPANY MAKES NO WARRANTY THAT (I) THE SERVICE WILL MEET YOUR REQUIREMENTS, (II) THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE, (III) THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE SERVICE WILL BE ACCURATE OR RELIABLE, OR (IV) THE QUALITY OF ANY PRODUCTS, SERVICES, INFORMATION, OR OTHER MATERIAL PURCHASED OR OBTAINED BY YOU THROUGH THE SERVICE WILL MEET YOUR EXPECTATIONS.</p>
               </section>
               <section>
-                <h2 class="header-bold">Limitation of Liability</h2>
+                <h2 className="header-bold">Limitation of Liability</h2>
                 <p>YOU EXPRESSLY UNDERSTAND AND AGREE THAT COMPANY WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY DAMAGES, OR DAMAGES FOR LOSS OF PROFITS INCLUDING BUT NOT LIMITED TO, DAMAGES FOR LOSS OF GOODWILL, USE, DATA OR OTHER INTANGIBLE LOSSES (EVEN IF COMPANY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES), WHETHER BASED ON CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY OR OTHERWISE, RESULTING FROM: (I) THE USE OR THE INABILITY TO USE THE SERVICE; (II) THE COST OF PROCUREMENT OF SUBSTITUTE GOODS AND SERVICES RESULTING FROM ANY GOODS, DATA, INFORMATION OR SERVICES PURCHASED OR OBTAINED OR MESSAGES RECEIVED OR TRANSACTIONS ENTERED INTO THROUGH OR FROM THE SERVICE; (III) UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA; (IV) STATEMENTS OR CONDUCT OF ANY THIRD PARTY ON THE SERVICE; OR (V) ANY OTHER MATTER RELATING TO THE SERVICE. IN NO EVENT WILL COMPANY’S TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES OR CAUSES OF ACTION EXCEED THE AMOUNT YOU HAVE PAID COMPANY IN THE LAST SIX (6) MONTHS, OR, IF GREATER, ONE HUNDRED DOLLARS ($100).</p>
                 <p>SOME JURISDICTIONS DO NOT ALLOW THE DISCLAIMER OR EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES. ACCORDINGLY, SOME OF THE ABOVE LIMITATIONS SET FORTH ABOVE MAY NOT APPLY TO YOU OR BE ENFORCEABLE WITH RESPECT TO YOU. IF YOU ARE DISSATISFIED WITH ANY PORTION OF THE SERVICE OR WITH THESE TERMS OF SERVICE, YOUR SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE USE OF THE SERVICE.</p>
                 <p>IF YOU ARE A USER FROM NEW JERSEY, THE FOREGOING SECTIONS TITLED “DISCLAIMER OF WARRANTIES” AND “LIMITATION OF LIABILITY” ARE INTENDED TO BE ONLY AS BROAD AS IS PERMITTED UNDER THE LAWS OF THE STATE OF NEW JERSEY.  IF ANY PORTION OF THESE SECTIONS IS HELD TO BE INVALID UNDER THE LAWS OF THE STATE OF NEW JERSEY, THE INVALIDITY OF SUCH PORTION SHALL NOT AFFECT THE VALIDITY OF THE REMAINING PORTIONS OF THE APPLICABLE SECTIONS.</p>
               </section>
               <section>
-                <span class="bold">
-                  <span class="underline">Dispute Resolution By Binding Arbitration: </span>
+                <span className="bold">
+                  <span className="underline">Dispute Resolution By Binding Arbitration: </span>
                    PLEASE READ THIS SECTION CAREFULLY AS IT AFFECTS YOUR RIGHTS.
                   </span>
                 <ListHeader content="a. Agreement to Arbitrate" />
@@ -161,26 +160,26 @@ function Privacy() {
                 <p>Notwithstanding any provision in this Terms of Service to the contrary, Company agrees that if it makes any future change to this Arbitration Agreement (other than a change to the Notice Address) while you are a user of the Services, you may reject any such change by sending Company written notice within thirty (30) calendar days of the change to the Notice Address provided above.  By rejecting any future change, you are agreeing that you will arbitrate any dispute between us in accordance with the language of this Arbitration Agreement as of the date you first accepted these Terms of Service (or accepted any subsequent changes to these Terms of Service).</p>
               </section>
               <section>
-                <h2 class="header-bold">Termination</h2>
+                <h2 className="header-bold">Termination</h2>
                 <p>You agree that Company, in its sole discretion, may suspend or terminate your account (or any part thereof) or use of the Service and remove and discard any content within the Service, for any reason, including, without limitation, for lack of use or if Company believes that you have violated or acted inconsistently with the letter or spirit of these Terms of Service. Any suspected fraudulent, abusive or illegal activity that may be grounds for termination of your use of Service, may be referred to appropriate law enforcement authorities. Company may also in its sole discretion and at any time discontinue providing the Service, or any part thereof, with or without notice. You agree that any termination of your access to the Service under any provision of this Terms of Service may be effected without prior notice, and acknowledge and agree that Company may immediately deactivate or delete your account and all related information and files in your account and/or bar any further access to such files or the Service. Further, you agree that Company will not be liable to you or any third party for any termination of your access to the Service.</p>
               </section>
               <section>
-                <h2 class="header-bold">User Disputes</h2>
+                <h2 className="header-bold">User Disputes</h2>
                 <p>You agree that you are solely responsible for your interactions with any other user in connection with the Service and Company will have no liability or responsibility with respect thereto.  Company reserves the right, but has no obligation, to become involved in any way with disputes between you and any other user of the Service.</p>
               </section>
               <section>
-                <h2 class="header-bold">General</h2>
+                <h2 className="header-bold">General</h2>
                 <p>These Terms of Service constitute the entire agreement between you and Company and govern your use of the Service, superseding any prior agreements between you and Company with respect to the Service. You also may be subject to additional terms and conditions that may apply when you use affiliate or third party services, third party content or third party software. These Terms of Service will be governed by the laws of the State of California without regard to its conflict of law provisions. With respect to any disputes or claims not subject to arbitration, as set forth above, you and Company agree to submit to the personal and exclusive jurisdiction of the state and federal courts located within New York County, New York. The failure of Company to exercise or enforce any right or provision of these Terms of Service will not constitute a waiver of such right or provision. If any provision of these Terms of Service is found by a court of competent jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to give effect to the parties’ intentions as reflected in the provision, and the other provisions of these Terms of Service remain in full force and effect. You agree that regardless of any statute or law to the contrary, any claim or cause of action arising out of or related to use of the Service or these Terms of Service must be filed within one (1) year after such claim or cause of action arose or be forever barred. A printed version of this agreement and of any notice given in electronic form will be admissible in judicial or administrative proceedings based upon or relating to this agreement to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form. You may not assign this Terms of Service without the prior written consent of Company, but Company may assign or transfer this Terms of Service, in whole or in part, without restriction. The section titles in these Terms of Service are for convenience only and have no legal or contractual effect. Notices to you may be made via either email or regular mail. The Service may also provide notices to you of changes to these Terms of Service or other matters by displaying notices or links to notices generally on the Service.</p>
               </section>
               <section>
-                <h2 class="header-bold">Your Privacy</h2>
+                <h2 className="header-bold">Your Privacy</h2>
                 <p>At Company, we respect the privacy of our users. For details please see our Privacy Policy.  By using the Service, you consent to our collection and use of personal data as outlined therein.</p>
                 <p>
-                  <div class="bold underline">Notice for California Users</div>
+                  <span className="bold underline">Notice for California Users</span><br />
                   Under California Civil Code Section 1789.3, users of the Service from California are entitled to the following specific consumer rights notice: The Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs may be contacted in writing at 1625 North Market Blvd., Suite N 112, Sacramento, CA 95834, or by telephone at (916) 445-1254 or (800) 952-5210.
                 </p>
                 <p>
-                  <div class="bold underline">Questions?  Concerns?  Suggestions?</div>
+                  <span className="bold underline">Questions?  Concerns?  Suggestions?</span><br />
                   Please contact us at <Link email src="business@paywithway.com" /> to report any violations of these Terms of Service or to pose any questions regarding this Terms of Service or the Service.
                 </p>
               </section>
@@ -188,7 +187,6 @@ function Privacy() {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </div>
   )
 }
