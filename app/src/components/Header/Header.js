@@ -14,7 +14,9 @@ function Header(props) {
   }
   return (
     <Navbar expanded={expanded} className={`way-nav ${simpleNav.class}`} collapseOnSelect expand="xl" bg="white" variant="light">
-      <Navbar.Brand className="way-logo"><Link className="unset" to="/"><img src={logo} alt="Way Logo" /></Link></Navbar.Brand>
+      <Navbar.Brand className="way-logo">
+        <Link to="/" onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }) }}><img src={logo} alt="Way Logo" /></Link>
+      </Navbar.Brand>
       {
         simple ? '' :
           <React.Fragment>
