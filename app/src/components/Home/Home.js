@@ -21,7 +21,7 @@ import map from './assets/map.svg';
 
 function Home() {
     return (
-        <div>
+        <div id="/">
             <Container fluid className="way-containerl way-intro">
                 <Row>
                     <Col lg={7}>
@@ -177,7 +177,7 @@ function Home() {
                         <h1>Countless benefits, one <span className="way-c">WAY</span>.</h1>
                     </Col>
                     <Col xs={12} className="text-center mt-5">
-                        <span className="way-buttondown"><Link to="/start" style={{ all: 'unset' }}>Get Started</Link></span>
+                        <span className="way-buttondown"><Link to="/get-started" style={{ all: 'unset' }}>Get Started</Link></span>
                     </Col>
                 </Row>
             </Container>

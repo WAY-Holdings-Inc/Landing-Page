@@ -27,7 +27,7 @@ function Footer() {
                                     <Link to="/#How">How It Works</Link>
                                 </li>
                                 <li className="list-unstyled">
-                                    <Link to="/contact">Contact Us</Link>
+                                    <Link to="/contact-us">Contact Us</Link>
                                 </li>
                             </ul>
                         </Col>
@@ -36,7 +36,7 @@ function Footer() {
                             <h5 className="title">MERCHANTS</h5>
                             <ul className="clear-padding-inline">
                                 <li className="list-unstyled">
-                                    <Link to="/start">Get Started</Link>
+                                    <Link to="/get-started">Get Started</Link>
                                 </li>
                                 <li className="list-unstyled">
                                     <Link to="/#benefits">Benefits</Link>
